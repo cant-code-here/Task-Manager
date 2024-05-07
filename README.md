@@ -14,6 +14,8 @@ This repository contains a simple task manager application built with Laravel.
    cd task-manager-laravel
 
 2. Install PHP dependencies with Composer.
+   bash
+   Copy code
    composer install
 
 3. Install front-end dependencies with npm.
