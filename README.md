@@ -3,16 +3,20 @@
 This repository contains a simple task manager application built with Laravel.
 
 ## Prerequisites
-- PHP 8.0 or later
-- Composer
-- PostgreSQL or another supported database
-- Node.js and npm (for front-end assets)
+
+   - PHP 8.0 or later
+
+   - Composer
+
+   - PostgreSQL or another supported database
+   
+   - Node.js and npm (for front-end assets)
 
 ## Setup Instructions
 1. Clone the repository to your local machine.
 
    git clone https://github.com/your-username/task-manager-laravel.git
-   
+
    cd task-manager-laravel
 
 2. Install PHP dependencies with Composer.
@@ -45,6 +49,9 @@ This repository contains a simple task manager application built with Laravel.
 2. Open a web browser and navigate to the provided URL (usually http://localhost:8000).
 
 # Design Choices
-- The project uses Laravel's Eloquent ORM for database interactions.
-- Bootstrap is used for front-end design and responsiveness.
-- The application allows CRUD operations on tasks and provides sorting and filtering    functionality.
+
+   - The project uses Laravel's Eloquent ORM for database interactions.
+
+   - Bootstrap is used for front-end design and responsiveness.
+
+   - The application allows CRUD operations on tasks and provides sorting and filtering    functionality.
