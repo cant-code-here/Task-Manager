@@ -10,29 +10,36 @@ This repository contains a simple task manager application built with Laravel.
 
 ## Setup Instructions
 1. Clone the repository to your local machine.
+
    git clone https://github.com/your-username/task-manager-laravel.git
+   
    cd task-manager-laravel
 
 2. Install PHP dependencies with Composer.
-   bash
-   Copy code
+
    composer install
 
 3. Install front-end dependencies with npm.
+
    npm install
 
 4. Create a .env file by copying the example and update it with your environment settings.
+
    cp .env.example .env
+
   - Update database connection details (DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 
 5. Generate an application key.
+
    php artisan key:generate
 
 6. Run database migrations.
+
    php artisan migrate
 
 # Running the Application
 1. Start the Laravel development server.
+
    php artisan serve
 
 2. Open a web browser and navigate to the provided URL (usually http://localhost:8000).
